@@ -2,7 +2,7 @@
 
 A quick code snippet on how to test Amazon Transcibe with moto
 
-## Current Moto Features for Amazon Transcibe
+## Current Moto Features for Amazon Transcibe Cover in this Repository
 - [ ] create_medical_vocabulary
 - [ ] create_vocabulary
 - [ ] delete_medical_transcription_job
