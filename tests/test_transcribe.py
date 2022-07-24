@@ -18,7 +18,7 @@ class TranscibeTest(unittest.TestCase):
 
     def test_start_transcribe(self):
         """Unit Test to test out connection to amazon transcribe"""
-        import src.transcribe as transcribe
+        import src.transcribe as transcribe # This import is necessary inside the function because the original function is initializing the client outside the class 
         file_name = 'test_audio.wav'
         transcribe_client = boto3.client('transcribe', region_name='us-east-1')
         transcribe_manager = transcribe.TranscibeBatch(
