@@ -18,7 +18,7 @@ A quick code snippet on how to test Amazon Transcibe with moto
 - [x] list_transcription_jobs
 - [ ] list_vocabularies
 - [ ] start_medical_transcription_job
-- [ ] start_transcription_job
+- [x] start_transcription_job
 
 More sample unit tests will be added to this repo soon to cover all the available motos
 
