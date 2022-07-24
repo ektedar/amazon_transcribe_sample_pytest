@@ -18,7 +18,7 @@ class TranscibeTest(unittest.TestCase):
 
     def test_start_transcribe(self):
         """Unit Test to test out connection to amazon transcribe"""
-        import transcribe
+        import src.transcribe as transcribe
         file_name = 'test_audio.wav'
         transcribe_client = boto3.client('transcribe', region_name='us-east-1')
         transcribe_manager = transcribe.TranscibeBatch(
