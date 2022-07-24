@@ -3,22 +3,22 @@
 A quick code snippet on how to test Amazon Transcibe with moto
 
 ## Current Moto Features for Amazon Transcibe
-- create_medical_vocabulary
-- create_vocabulary
-- delete_medical_transcription_job
-- delete_medical_vocabulary
-- delete_transcription_job
-- delete_vocabulary
-- get_medical_transcription_job
-- get_medical_vocabulary
-- get_transcription_job
-- get_vocabulary
-- list_medical_transcription_jobs
-- list_medical_vocabularies
-- list_transcription_jobs
-- list_vocabularies
-- start_medical_transcription_job
-- start_transcription_job
+- [ ] create_medical_vocabulary
+- [ ] create_vocabulary
+- [ ] delete_medical_transcription_job
+- [ ] delete_medical_vocabulary
+- [ ] delete_transcription_job
+- [ ] delete_vocabulary
+- [ ] get_medical_transcription_job
+- [ ] get_medical_vocabulary
+- [ ] get_transcription_job
+- [ ] get_vocabulary
+- [ ] list_medical_transcription_jobs
+- [ ] list_medical_vocabularies
+- [x] list_transcription_jobs
+- [ ] list_vocabularies
+- [ ] start_medical_transcription_job
+- [ ] start_transcription_job
 
 More sample unit tests will be added to this repo soon to cover all the available motos
 
